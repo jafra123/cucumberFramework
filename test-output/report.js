@@ -1,173 +1,191 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/dealsmap.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/taging.feature");
 formatter.feature({
-  "line": 1,
-  "name": "Free CRM Create deals",
+  "line": 2,
+  "name": "Free CRM application testing",
   "description": "",
-  "id": "free-crm-create-deals",
-  "keyword": "Feature"
+  "id": "free-crm-application-testing",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@FunctionTest"
+    }
+  ]
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Free CRM Create a new deals",
+  "line": 13,
+  "name": "Create a contact",
   "description": "",
-  "id": "free-crm-create-deals;free-crm-create-a-new-deals",
+  "id": "free-crm-application-testing;create-a-contact",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 12,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 14,
+  "name": "This is a contact test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_contact_test_case()"
+});
+formatter.result({
+  "duration": 234369671,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 21,
+  "name": "Create a tasks",
+  "description": "",
+  "id": "free-crm-application-testing;create-a-tasks",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 20,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 22,
+  "name": "This is a tasks test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_tasks_test_case()"
+});
+formatter.result({
+  "duration": 137160,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 25,
+  "name": "Create a case",
+  "description": "",
+  "id": "free-crm-application-testing;create-a-case",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 24,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 26,
+  "name": "This is a case test case",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_case_test_case()"
+});
+formatter.result({
+  "duration": 120366,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 37,
+  "name": "Search a contact",
+  "description": "",
+  "id": "free-crm-application-testing;search-a-contact",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 38,
+  "name": "This is a search contact test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_search_contact_test()"
+});
+formatter.result({
+  "duration": 107768,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 44,
+  "name": "Search a task",
+  "description": "",
+  "id": "free-crm-application-testing;search-a-task",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 43,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 45,
+  "name": "This is a search task test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_search_task_test()"
+});
+formatter.result({
+  "duration": 113834,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 56,
+  "name": "Search a docs",
+  "description": "",
+  "id": "free-crm-application-testing;search-a-docs",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 55,
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "line": 57,
+  "name": "This is a search docs test",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "TagingStepDefination.this_is_a_search_docs_test()"
+});
+formatter.result({
+  "duration": 135761,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 72,
+  "name": "browser closed",
+  "description": "",
+  "id": "free-crm-application-testing;browser-closed",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 4,
-  "name": "User is already on login page",
+  "line": 73,
+  "name": "This is a close broswer test",
   "keyword": "Given "
 });
-formatter.step({
-  "line": 5,
-  "name": "title of login page is Free CRM",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "user enters username and password",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 7
-    },
-    {
-      "cells": [
-        "jafra123",
-        "canada123"
-      ],
-      "line": 8
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 10,
-  "name": "user clicks on login button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 11,
-  "name": "user is on home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 12,
-  "name": "user move to new deal page",
-  "keyword": "Then "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 13,
-      "value": "# below data is only for this line"
-    }
-  ],
-  "line": 14,
-  "name": "user enters deal detail",
-  "rows": [
-    {
-      "cells": [
-        "title",
-        "amount",
-        "probability",
-        "commisioin"
-      ],
-      "line": 15
-    },
-    {
-      "cells": [
-        "test deal",
-        "1000",
-        "50",
-        "10"
-      ],
-      "line": 16
-    },
-    {
-      "cells": [
-        "test deal",
-        "2000",
-        "60",
-        "20"
-      ],
-      "line": 17
-    },
-    {
-      "cells": [
-        "test deal",
-        "3000",
-        "70",
-        "30"
-      ],
-      "line": 18
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "close the browser",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "DealStepWithMap.User_already_on_login_page()"
+  "location": "TagingStepDefination.this_is_a_close_broswer_test()"
 });
 formatter.result({
-  "duration": 7937468888,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.title_login_page_is_Free_CRM()"
-});
-formatter.result({
-  "duration": 42692317,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.user_enters_username_and_password(DataTable)"
-});
-formatter.result({
-  "duration": 1299758290,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.user_clicks_on_login_button()"
-});
-formatter.result({
-  "duration": 3307144886,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 18798895,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.user_move_to_new_deal_page()"
-});
-formatter.result({
-  "duration": 1992753363,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.user_enters_deal_detail(DataTable)"
-});
-formatter.result({
-  "duration": 13184943436,
-  "status": "passed"
-});
-formatter.match({
-  "location": "DealStepWithMap.close_the_browser()"
-});
-formatter.result({
-  "duration": 1219733638,
+  "duration": 209939,
   "status": "passed"
 });
 });
