@@ -1,4 +1,4 @@
-/*package stepDefination;
+package stepDefination;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -96,4 +96,3 @@ public void title_login_page_is_Free_CRM () {
 
 
 }
-*/

@@ -1,4 +1,4 @@
-
+/*
 package stepDefination;
 
 import java.util.List;
@@ -53,13 +53,13 @@ WebDriver driver;
 	    // Write code here that turns the phrase above into concrete actions
 	    // For automatic transformation, change DataTable to one of
 	    // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-	/*	for (Map<String, String> data : dealData.asMaps(String.class, String.class) ) {
+	//	for (Map<String, String> data : dealData.asMaps(String.class, String.class) ) {
 			
 		//Map<String, String> data : (Map<String, String> crediatials.asMap<String.class, String.class);
 	    // E,K,V must be a scalar (String, Integer, Date, enum etc)
-		driver.findElement(By.name("username")).sendKeys("username");
-		 driver.findElement(By.name("password")).sendKeys("password");
-		} */
+		//driver.findElement(By.name("username")).sendKeys("username");
+		 //driver.findElement(By.name("password")).sendKeys("password");
+	//	} 
 	}
 	@Then("^user clicks on login button$")
 	public void user_clicks_on_login_button() throws Throwable {
@@ -108,9 +108,9 @@ WebDriver driver;
 	}
 	@Then("^close the browser$")
 	public void close_the_browser(){
-		driver.quit();
+		driver.quit(); 
 	   
-	}
+	} 
 	
 	
-} 
+} */

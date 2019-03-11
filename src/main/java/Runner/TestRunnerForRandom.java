@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		// ="Features/MyApplication.feature", 
-		features = "C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/login.feature", 
+		features = "C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/definition.feature", 
 		glue = {"stepDefination"} // step defination file 
 		//,format = {"pretty", "html:test-output"} // this is we see the console nocely at 1:00:00 cucumber video 1 naveen 
 		//,format = {"pretty", "html:test-output", "json:json_output/cucumber.json"} // jason format report will be created 
@@ -20,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 		//,tags = {"~@End2End ", "~@RegressionTest"}
 		
 		)
-public class TestRunner {
+public class TestRunnerForRandom {
 
 	//OR:   tags = {"@End2End, @RegressionTest"} -- execute all test tag tags = "@End2End, or  @RegressionTest"
     //And:   tags = {"@End2End ", "@RegressionTest"} 

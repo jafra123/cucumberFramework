@@ -1,4 +1,4 @@
-package stepDefination;
+/*package stepDefination;
 
 import cucumber.api.java.en.Given;
 
@@ -117,4 +117,4 @@ public class TagingStepDefination {
 	
 	
 	
-}
+} */

@@ -1,31 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="0.235195">
-<testcase classname="Free CRM application testing" name="Create a contact" time="0.23437">
-<system-out><![CDATA[Given This is a contact test case...........................................passed
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="35.486286">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="14.117457">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "jafra123" and "canada123".................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................passed
+Then close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a tasks" time="0.000137">
-<system-out><![CDATA[Given This is a tasks test case.............................................passed
-]]></system-out>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 2" time="8.487862">
+<failure message="org.junit.ComparisonFailure: expected:&lt;CRMPRO[]&gt; but was:&lt;CRMPRO[ - CRM software for customer relationship management, sales, and support.]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefination.LoginStwepDefination.user_is_on_home_page(LoginStwepDefination.java:67)&#13;&#10;&#9;at ✽.Then user is on home page(C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/login.feature:29)&#13;&#10;"><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "tom" and "test456"........................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<CRMPRO[]> but was:<CRMPRO[ - CRM software for customer relationship management, sales, and support.]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefination.LoginStwepDefination.user_is_on_home_page(LoginStwepDefination.java:67)
+	at ✽.Then user is on home page(C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/login.feature:29)
+]]></failure>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a case" time="0.00012">
-<system-out><![CDATA[Given This is a case test case..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM application testing" name="Search a contact" time="0.000108">
-<system-out><![CDATA[Given This is a search contact test.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM application testing" name="Search a task" time="0.000114">
-<system-out><![CDATA[Given This is a search task test............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM application testing" name="Search a docs" time="0.000136">
-<system-out><![CDATA[Given This is a search docs test............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Free CRM application testing" name="browser closed" time="0.00021">
-<system-out><![CDATA[Given This is a close broswer test..........................................passed
-]]></system-out>
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario 3" time="12.880967">
+<failure message="org.junit.ComparisonFailure: expected:&lt;CRMPRO[]&gt; but was:&lt;CRMPRO[ - CRM software for customer relationship management, sales, and support.]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefination.LoginStwepDefination.user_is_on_home_page(LoginStwepDefination.java:67)&#13;&#10;&#9;at ✽.Then user is on home page(C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/login.feature:29)&#13;&#10;"><![CDATA[Given User is already on login page.........................................passed
+When title of login page is Free CRM........................................passed
+Then user enters "man" and "manm1"..........................................passed
+Then user clicks on login button............................................passed
+Then user is on home page...................................................failed
+Then close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<CRMPRO[]> but was:<CRMPRO[ - CRM software for customer relationship management, sales, and support.]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefination.LoginStwepDefination.user_is_on_home_page(LoginStwepDefination.java:67)
+	at ✽.Then user is on home page(C:/Users/b/eclipse-workspace/FreeCrmBDDFrameworkNaveen/src/main/java/Features/login.feature:29)
+]]></failure>
 </testcase>
 </testsuite>
